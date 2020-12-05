@@ -2,16 +2,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
+#wholepage {
+    
+}
+
+#pagewrapper {
+    min-height: 500px;
+     
+}
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    min-width: 700px;
+    background-size: cover, contain;
   }
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
+
+
 
 /*--------Navigation bar-----*/
 #nav-bar {
@@ -55,14 +68,16 @@
     font-size: 20px;
 }
 
-.home-cover img{
-    background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
-    background-position: center center;
+/* -- home -- */
+#home {
+    background-image: url("Desktop\ -\ 3.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: block;
+    width: 100%;
 }
-
 
 
 /* ---- About ---- */
@@ -72,6 +87,7 @@
     padding-bottom: 50px;
     color: #555;
     padding-left: 40px;
+    width: 100%;
 }
 
 #about .btn {
@@ -83,14 +99,12 @@
     padding-top: 20px;
 }
 
-.felix-image img {
-    padding-left: 350px;
-}
+
 
 
 /*----Benefits slider-----*/
 #slider {
-    
+    background-image: url("Desktop\ -\ 4.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -131,16 +145,13 @@
     top: 10%;
 }
 
-.carousel-caption img{
-    top: 100%;
-}
-
-.d-block img {
+.d-block .img-fluid {
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 /* --- Register --- */
