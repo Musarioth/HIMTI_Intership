@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'Francois One', sans-serif;
+}
+
+.sponsorhip{
+    margin: auto;
+    width: 70%;
+}
+
+.text-sponsor p{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gambar-sponsor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gambar-sponsor img{
+    height: 150px;
+}
+
+.footer-luar{
+    background: rgba(7, 14, 24, 1);
+    padding-top: 20px;
+    height: 230px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-dalem{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(7, 14, 24, 1);
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    justify-content: space-around;
+    /* margin-top: 0px; */
+}
+
+.follow p{
+    color: white;
+    font-size: 20px;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gambar-logo img{
+    height: 190px;
+}
+
+.logo-sosmed{
+    display: flex;
+}
+.twitter img{
+    height: 30px;
+    margin-left: 20px;
+}
+
+.instagram img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.youtube img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.facebook img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.desc1-bawah{
+    display: flex;
+    justify-items: space-around;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.desc1-bawah:hover{
+    color: rgb(67, 117, 255);
+    text-decoration: none;
+}
+
+.logo-kanan img{
+    height: 130px;
+    margin-left: 20px;
+}
+
+.desc-bawah ul{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
