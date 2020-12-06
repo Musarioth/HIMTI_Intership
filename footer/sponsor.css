@@ -1,0 +1,25 @@
+footer{
+    font-family: 'Francois One', sans-serif;
+}
+
+.sponsorhip{
+    margin: auto;
+    width: 70%;
+}
+
+.text-sponsor p{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gambar-sponsor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gambar-sponsor img{
+    height: 150px;
+}
